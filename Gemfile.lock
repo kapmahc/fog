@@ -16,6 +16,17 @@ GIT
       spree_core (>= 3.1.0, < 4.0)
 
 GIT
+  remote: https://github.com/spree-contrib/spree_braintree_vzero.git
+  revision: 0ccaae363837dbae29b26ab6f14b110b6004fb3b
+  specs:
+    spree_braintree_vzero (3.2.0.beta)
+      braintree (>= 2.40.0)
+      spree_backend (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_frontend (>= 3.1.0, < 4.0)
+      whenever
+
+GIT
   remote: https://github.com/spree-contrib/spree_editor.git
   revision: 1966d3c87754aeb07e9d5543dd3d17e4e0754dfb
   specs:
@@ -130,6 +141,8 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    braintree (2.76.0)
+      builder (>= 2.0.0)
     builder (3.2.3)
     byebug (9.0.6)
     camertron-eprun (1.1.1)
@@ -161,6 +174,7 @@ GEM
       activesupport (>= 3.0.0)
     childprocess (0.7.1)
       ffi (~> 1.0, >= 1.0.11)
+    chronic (0.10.2)
     ckeditor (4.2.4)
       cocaine
       orm_adapter (~> 0.5.0)
@@ -458,6 +472,8 @@ GEM
     websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
+    whenever (0.9.7)
+      chronic (>= 0.6.3)
     xpath (2.1.0)
       nokogiri (~> 1.3)
 
@@ -484,6 +500,7 @@ DEPENDENCIES
   spree (~> 3.3.0.rc1)
   spree_address_book!
   spree_auth_devise (~> 3.3.0.rc1)
+  spree_braintree_vzero!
   spree_editor!
   spree_gateway (~> 3.3.0.rc1)
   spree_i18n!
