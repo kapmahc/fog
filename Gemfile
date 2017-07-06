@@ -56,8 +56,15 @@ end
 
 # my add
 gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master'
+gem 'tinymce-rails-langs'
 
 gem 'spree', '~> 3.3.0.rc1'
 gem 'spree_auth_devise', '~> 3.3.0.rc1'
 gem 'spree_gateway', '~> 3.3.0.rc1'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+gem 'spree_address_book', github: 'spree-contrib/spree_address_book'
+gem 'spree_editor', github: 'spree-contrib/spree_editor'
+gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap'
+gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed'
+gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
+
