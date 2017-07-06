@@ -54,6 +54,10 @@ end
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
+# my add
+gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master'
+
 gem 'spree', '~> 3.3.0.rc1'
 gem 'spree_auth_devise', '~> 3.3.0.rc1'
 gem 'spree_gateway', '~> 3.3.0.rc1'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n'

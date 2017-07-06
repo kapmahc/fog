@@ -1,3 +1,23 @@
+GIT
+  remote: https://github.com/spree-contrib/spree_i18n.git
+  revision: 014df50090e5734a3a98682fd17c736d0f4b8c8e
+  specs:
+    spree_i18n (3.2.0.alpha)
+      i18n_data
+      kaminari-i18n
+      rails-i18n
+      routing-filter
+      spree_core (>= 3.1.0, < 4.0)
+
+GIT
+  remote: https://github.com/svenfuchs/rails-i18n.git
+  revision: d14fe4e0a1c54d2897d250e941e93f1d62e3b4b6
+  branch: master
+  specs:
+    rails-i18n (5.0.4)
+      i18n (~> 0.7)
+      railties (~> 5.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -114,6 +134,7 @@ GEM
     highline (1.6.21)
     htmlentities (4.3.4)
     i18n (0.8.4)
+    i18n_data (0.7.0)
     jbuilder (2.7.0)
       activesupport (>= 4.2.0)
       multi_json (>= 1.2)
@@ -135,6 +156,9 @@ GEM
       activerecord
       kaminari-core (= 1.0.1)
     kaminari-core (1.0.1)
+    kaminari-i18n (0.4.0)
+      kaminari
+      rails
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -223,6 +247,9 @@ GEM
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
+    routing-filter (0.6.1)
+      actionpack (>= 4.2, < 5.2)
+      activesupport (>= 4.2, < 5.2)
     ruby_dep (1.5.0)
     rubyzip (1.2.1)
     sass (3.4.24)
@@ -362,11 +389,13 @@ DEPENDENCIES
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.2)
+  rails-i18n!
   sass-rails (~> 5.0)
   selenium-webdriver
   spree (~> 3.3.0.rc1)
   spree_auth_devise (~> 3.3.0.rc1)
   spree_gateway (~> 3.3.0.rc1)
+  spree_i18n!
   spring
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
