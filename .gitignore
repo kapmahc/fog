@@ -23,4 +23,7 @@
 .*.swp
 .*.un~
 
-public/sitemap*
+
+/public/sitemap*
+/public/ckeditor_assets/
+/public/spree/

@@ -55,6 +55,8 @@ end
 
 
 # my add
+gem 'lograge'
+
 gem 'rails-i18n', github: 'svenfuchs/rails-i18n', branch: 'master'
 gem 'tinymce-rails-langs'
 
@@ -68,3 +70,10 @@ gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap'
 gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
 
+group :development do
+  gem 'capistrano', '~> 3.8'
+  gem 'capistrano-rbenv', '~> 2.0'
+  gem 'capistrano-rails', '~> 1.3'
+  gem 'capistrano3-puma', github: 'seuros/capistrano-puma'
+  gem 'capistrano-sidekiq', github: 'seuros/capistrano-sidekiq'
+end
