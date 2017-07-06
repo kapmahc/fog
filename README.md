@@ -1,20 +1,12 @@
 FOG - A box of spree.
 ---
 
-* Ruby version
 
-* System dependencies
+* Upgrade
+```bash
+bundle exec rake railties:install:migrations
+bundle exec rake db:migrate
+bundle exec rake db:seed
+bundle exec rake spree_sample:load
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
