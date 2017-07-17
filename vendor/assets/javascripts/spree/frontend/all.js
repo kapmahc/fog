@@ -14,3 +14,4 @@
 //= require spree/frontend/spree_address_book
 //= require spree/frontend/spree_recently_viewed
 //= require spree/frontend/spree_braintree_vzero
+//= require spree/frontend/spree_reviews
