@@ -69,7 +69,7 @@ gem 'spree_editor', github: 'spree-contrib/spree_editor'
 gem 'spree_sitemap', github: 'spree-contrib/spree_sitemap'
 gem 'spree_recently_viewed', github: 'spree-contrib/spree_recently_viewed'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content'
-gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero'
+gem 'spree_braintree_vzero', github: 'kapmahc/spree_braintree_vzero'
 gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
 
 group :development do
