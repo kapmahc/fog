@@ -24,7 +24,8 @@ set :deploy_to, -> {"/var/www/#{fetch :hostname}"}
 # Default value for :linked_files is []
 append :linked_files, 'config/database.yml', '.rbenv-vars',
        'public/robots.txt', 'public/favicon.ico',
-       'vendor/assets/images/admin/logo.png', 'vendor/assets/images/logo/spree_50.png'
+       'vendor/assets/images/admin/logo.png', 'vendor/assets/images/logo/spree_50.png',
+       'vendor/assets/images/noimage/large.png', 'vendor/assets/images/noimage/mini.png', 'vendor/assets/images/noimage/product.png', 'vendor/assets/images/noimage/small.png'
 
 # Default value for linked_dirs is []
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system',
