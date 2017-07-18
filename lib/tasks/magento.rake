@@ -14,7 +14,7 @@ namespace :magento do
 
       CSV.foreach(fn) do |row|
         next if $. == 1
-        puts "#{row[4]} #{row[7]} #{row[34]}"
+        # puts "#{row[4]} #{row[7]} #{row[34]}"
         if row[34] == 'Enabled'
           puts "find product #{row[4]} #{row[7]}"
           Spree::Product.create sku: row[4], name: row[7], price: row[27], description: row[29], available_on: Time.now, shipping_category_id: 1
